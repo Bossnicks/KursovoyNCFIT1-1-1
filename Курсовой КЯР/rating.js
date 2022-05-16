@@ -8,38 +8,6 @@ ratingItemsArray.forEach(item =>
 	)
 );
 
-if($(window).scrollTop()>=0){
-	$('#main-theme-picture-div').animate({
-		opacity: 1
-}, 1000)
-}
-if($(window).scrollTop()>=0){
-	$('#mainSidebar').animate({
-		opacity: 1
-}, 1500)
-}
-if($(window).scrollTop()>=0){
-	$('header').animate({
-		opacity: 1
-}, 500)
-}
-$(window).scroll(function(){
-	if($(window).scrollTop()>330){
-		$('#contactField').animate({
-			opacity: 1
-	}, 1000)
-	}
-	if($(window).scrollTop()>850){
-		$('#ourSpecialist').animate({
-			opacity: 1
-	}, 1000)
-	}
-	if($(window).scrollTop()>1000){
-		$('#footer').animate({
-			opacity: 1
-	}, 1000)
-	}
-})
 
 
 
